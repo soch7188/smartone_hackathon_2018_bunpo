@@ -5,6 +5,8 @@ intents:
   - mood_deny
   - mood_great
   - mood_unhappy
+  - express_cold
+  - express_hot
 
 actions:
 - utter_greet
@@ -12,6 +14,8 @@ actions:
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
+- utter_answer_cold
+- utter_answer_hot
 
 templates:
   utter_greet:
@@ -29,3 +33,9 @@ templates:
 
   utter_goodbye:
   - text: "Bye"
+
+  utter_answer_cold:
+  - text: "Oh you feel cold, then I will adjust the aircon and make the temperature higher a bit"
+
+  utter_answer_cold:
+  - text: "Oh you feel hot, then I will adjust the aircon and make the temperature lower a bit"
