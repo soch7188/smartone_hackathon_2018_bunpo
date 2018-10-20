@@ -2,10 +2,12 @@ import json
 from flask import Flask, request, jsonify
 from twilio.twiml.messaging_response import Body, Message, Redirect, MessagingResponse
 from rasa_nlu.model import Interpreter
+from scenarios.registration import *
 
 # Download the helper library from https://www.twilio.com/docs/python/install
 from twilio.rest import Client
 
+interpreter = Interpreter.load('/Users/ziwon/Documents/SmarTone_Hackathon_2018/models/current/nlu')
 
 # Your Account Sid and Auth Token from twilio.com/console
 account_sid = 'AC976573d88542155f2f8f4b1b5c624da6'
@@ -17,12 +19,9 @@ message = client.messages.create(
                               from_='whatsapp:+14155238886',
                               to='whatsapp:+85261318805'
                           )
-
 print(message.sid)
 
 app = Flask(__name__)
-# interpreter = Interpreter.load('./models/current/nlu')
-
 
 @app.route('/')
 def hello_world():
@@ -46,6 +45,16 @@ def message_in():
     print("request.values.To: ", request.values['To'])
     print("request.values.Body: ", request.values['Body'])
 
+    user = request.values['From']
+    message = request.values['Body']
+    parsed_message = interpreter.parse(request.values['Body'])
+    print(parsed_message.values())
+    for key in parsed_message.keys():
+        for value in parsed_message[key]:
+            print(key, value)
+
+    initial_text_check(message, parsed_message)
+
     # Add a message
     resp.message("Hi Minkyung.")
 
@@ -60,4 +69,4 @@ def get_message():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5001)
