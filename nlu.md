@@ -6,6 +6,8 @@
 - good evening
 - hey there
 - heyyy
+- hey there
+- hey 👋
 
 ## intent:name
 - hi i'm [Chloe](name)
@@ -23,6 +25,10 @@
 - i am [Chloe](name)
 - i am [Zhang](name)
 - i am [Ziwon](name)
+- hi my name is [Ziwon](name)
+- hi my name is [Minkyung](name)
+- hi my name is [Eunji](name)
+- hi my name is [Mimi](name)
 
 ## intent:restaurant_search
 - i'm looking for a place to eat
@@ -37,6 +43,13 @@
 - anywhere near [18328](location)
 - I am looking for [asian fusion](cuisine) food
 - I am looking a restaurant in [29432](location)
+- I want to eat [asian fusion](cuisine) food
+- I want to eat [chinese](cuisine) food
+- I want to eat [italian](cuisine) food
+- where can i find [italian](cuisine) restaurant
+- where can i find [korean](cuisine) restaurant
+- where can i find [chinese](cuisine) restaurant
+- where can i find [asian fusion](cuisine) restaurant
 
 ## intent:thankyou
 - thanks!
@@ -45,6 +58,7 @@
 - thanks very much
 - thanks
 - it's amazing thanks
+- think you so much
 
 ## intent:express_hungry
 - i'm hungry
@@ -887,9 +901,9 @@
 - woah
 
 ## intent:goodbye
-- okay see you later
-- hope to see you later
-- bye for now
+- okay see you later 👋
+- hope to see you later👋
+- bye for now 👋
 - till next time
 - I must go
 - bye
