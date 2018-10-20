@@ -12,10 +12,12 @@ actions:
 - utter_greet
 - utter_cheer_up
 - utter_did_that_help
+- utter_need_help
 - utter_happy
 - utter_goodbye
 - utter_answer_cold
 - utter_answer_hot
+
 
 templates:
   utter_greet:
