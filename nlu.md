@@ -193,7 +193,7 @@
 - very good 
 - great
 - amazing
-- wonderful g
+- wonderful
 - I am feeling very good
 - I am great
 - I'm good
