@@ -7,12 +7,9 @@ from rasa_nlu.model import Interpreter
 from twilio.rest import Client
 from rasa_core.agent import Agent
 
-agent = Agent.load('models/dialogue', interpreter='models/current/nlu')
+# agent = Agent.load('models/dialogue', interpreter='models/current/nlu')
 
-fallback = FallbackPolicy(fallback_action_name="action_default_fallback",
-                          core_threshold=0.3,
-                          nlu_threshold=0.3)
-# interpreter = Interpreter.load('./models/current/nlu')
+interpreter = Interpreter.load('./models/cur/current/nlu')
 
 # Your Account Sid and Auth Token from twilio.com/console
 account_sid = 'AC976573d88542155f2f8f4b1b5c624da6'
@@ -28,7 +25,6 @@ print(message.sid)
 
 app = Flask(__name__)
 # interpreter = Interpreter.load('./models/current/nlu')
-
 
 @app.route('/')
 def hello_world():
@@ -47,23 +43,25 @@ def message_in():
     print("request.values.Body: ", request.values['Body'])
 
     # result = interpreter.parse(request.values['Body'])
-    responses = agent.handle_message(request.values['Body'])
-
-    answer = [""]
-    # Add a message
-    for r in responses:
-    	answer.append(r.get("text"))
-    # print(answer)
-    resp.message(" ".join(answer))
+    resp.message(request.values['Body'])
 
     return str(resp)
 
+    # answer = [""]
+    # # Add a message
+    # for r in responses:
+    # 	answer.append(r.get("text"))
+    # # print(answer)
+    # resp.message(" ".join(answer))
 
-@app.route('/get_message', endpoint='get_message', methods=['GET'])
-def get_message():
-    content = request.get_json()
-    print(content)
-    return content
+    # return str(resp)
+
+
+# @app.route('/get_message', endpoint='get_message', methods=['GET'])
+# def get_message():
+#     content = request.get_json()
+#     print(content)
+#     return content
 
 
 if __name__ == '__main__':

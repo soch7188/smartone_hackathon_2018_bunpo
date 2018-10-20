@@ -1,17 +1,22 @@
 {
   "action_fingerprints": {
     "action_listen": {
+      "slots": [
+        "name"
+      ]
+    },
+    "actions.ActionNameHello": {
       "slots": []
     },
-    "utter_happy": {
+    "utter_thankyou": {
       "slots": []
     },
-    "utter_goodbye": {
+    "utter_last": {
       "slots": []
     }
   },
   "rasa_core": "0.11.12",
-  "python": "3.6.4",
+  "python": "3.6.5",
   "max_histories": [
     null,
     3,
