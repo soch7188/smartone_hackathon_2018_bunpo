@@ -73,6 +73,10 @@ def message_in():
             entity_2_name = parsed_message['entities'][1]['entity']
             entity_2_value = parsed_message['entities'][1]['value']
 
+            if (parsed_message['entities'][2]):
+                entity_3_name = parsed_message['entities'][2]['entity']
+                entity_3_value = parsed_message['entities'][2]['value']
+
 
     # Step 2: Hanlde Scenarios
     resp.message("Sorry, I cannot understand what you are saying yet, but I will learn soon!")
@@ -83,29 +87,29 @@ def message_in():
 
     # 2) If intent=='greeting' and user has no name, ask for name
     if intent_name=='greet':
-        resp.message(handle_greeting)
+        resp.message(handle_greeting(user))
 
     if intent_name=='ask_user_points':
-        resp.message(handle_ask_user_points)
+        resp.message(handle_ask_user_points(user))
 
     # 3)
     if intent_name=='ask_queue':
-        resp.message(handle_ask_queue)
+        resp.message(handle_ask_queue(user, entity_1_value, entity_2_value))
 
     if intent_name == 'answer_queue':
-        resp.message(handle_answer_queue)
+        resp.message(handle_answer_queue(user, entity_1_value, entity_2_value, entity_3_value))
 
     if intent_name=='ask_price':
-        resp.message(handle_ask_price)
+        resp.message(handle_ask_price(user, entity_1_value))
 
     if intent_name=='answer_price':
-        resp.message(handle_answer_price)
+        resp.message(handle_answer_price(user, entity_1_value))
 
     if intent_name=='express_cold':
-        resp.message(handle_express_cold)
+        resp.message(handle_express_cold(user))
 
     if intent_name=='express_hot':
-        resp.message(handle_express_hot)
+        resp.message(handle_express_hot(user))
 
     if intent_name == 'name':
         # Update Name
