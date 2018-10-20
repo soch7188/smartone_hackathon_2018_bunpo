@@ -29,13 +29,6 @@ def hello_world():
     return 'Hello World!'
 
 
-# @app.route('/send_message', methods=['POST'])
-# def send_message():
-#     message = 'hey!'
-#     result = interpreter.parse(message)
-#     result_ = json.dumps(result, indent=2)
-#
-#     return jsonify(result_)
 
 @app.route("/message_in", methods=['GET', 'POST'])
 def message_in():

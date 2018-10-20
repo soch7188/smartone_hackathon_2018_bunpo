@@ -28,6 +28,9 @@ templates:
   utter_did_that_help:
   - text: "Did that help you?"
 
+  utter_need_help:
+  - text: "Do you need any help?"
+
   utter_happy:
   - text: "Great carry on!"
 
