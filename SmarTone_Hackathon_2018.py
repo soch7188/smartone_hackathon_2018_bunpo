@@ -3,6 +3,9 @@ from flask import Flask, request, jsonify
 from twilio.twiml.messaging_response import Body, Message, Redirect, MessagingResponse
 from rasa_nlu.model import Interpreter
 from scenarios.registration import *
+from scenarios.queue import *
+from scenarios.temperature import *
+from scenarios.item import *
 
 # Download the helper library from https://www.twilio.com/docs/python/install
 from twilio.rest import Client
@@ -21,12 +24,12 @@ message = client.messages.create(
                           )
 print(message.sid)
 
-message = client.messages.create(
-                              body='Hello there!',
-                              from_='whatsapp:+14155238886',
-                              to='whatsapp:+85262232647'
-                          )
-print(message.sid)
+# message = client.messages.create(
+#                               body='Hello there!',
+#                               from_='whatsapp:+14155238886',
+#                               to='whatsapp:+85262232647'
+#                           )
+# print(message.sid)
 
 app = Flask(__name__)
 
@@ -48,6 +51,8 @@ def message_in():
     """Respond to incoming messages with a friendly SMS."""
     # Start our response
     resp = MessagingResponse()
+
+    # Step 1: Extract Intent & Entities
     print("request.values.From: ", request.values['From'])
     print("request.values.To: ", request.values['To'])
     print("request.values.Body: ", request.values['Body'])
@@ -57,41 +62,60 @@ def message_in():
     parsed_message = interpreter.parse(request.values['Body'])
     print(parsed_message)
 
-    print(parsed_message)
-    for key in parsed_message.keys():
-        for value in parsed_message[key]:
-            print(key, value)
+    intent_name = parsed_message['intent']['name']
+    intent_conf = parsed_message['intent']['confidence']
 
-    # [
-    # {'name': 'name', 'confidence': 0.16701710503937672},
-    # [
-    # {'start': 14, 'end': 19, 'value': 'ziwon', 'entity': 'name', 'confidence': 0.8729814156254414, 'extractor': 'ner_crf'}
-    # ],
-    #
-    # [
-    # {'name': 'name', 'confidence': 0.16701710503937672},
-    # {'name': 'whatsup', 'confidence': 0.055722469338217916},
-    # {'name': 'good', 'confidence': 0.042322297553788614},
-    # {'name': 'friend', 'confidence': 0.03993370454164255},
-    # {'name': 'my_birthday', 'confidence': 0.03717055728120658},
-    #  {'name': 'mood_affirm', 'confidence': 0.02951665021895573},
-    # {'name': 'like_agent', 'confidence': 0.022120846140765704},
-    # {'name': 'goodbye', 'confidence': 0.021940056754661222},
-    # {'name': 'user_joking', 'confidence': 0.021112855513242212},
-    #  {'name': 'bad', 'confidence': 0.02038291394855075}
-    # ],
-    #  'Hi my name is Ziwon'
-    # ]
+    if (parsed_message['entities']):
+        entity_1_name = parsed_message['entities'][0]['entity']
+        entity_1_value = parsed_message['entities'][0]['value']
 
-    print(parsed_message.values())
-    for key in parsed_message.keys():
-        for value in parsed_message[key]:
-            print(key, value)
+        if (parsed_message['entities'][1]):
+            entity_2_name = parsed_message['entities'][1]['entity']
+            entity_2_value = parsed_message['entities'][1]['value']
 
-    initial_text_check(message, parsed_message)
+
+    # Step 2: Hanlde Scenarios
+    resp.message("Sorry, I cannot understand what you are saying yet, but I will learn soon!")
+
+    # 1) Registration
+    register_if_not_already(user)
+    # initial_text_check(user, intent_name, entity_1_name, entity_1_value, entity_2_name, entity_2_value)
+
+    # 2) If intent=='greeting' and user has no name, ask for name
+    if intent_name=='greet':
+        resp.message(handle_greeting)
+
+    if intent_name=='ask_user_points':
+        resp.message(handle_ask_user_points)
+
+    # 3)
+    if intent_name=='ask_queue':
+        resp.message(handle_ask_queue)
+
+    if intent_name == 'answer_queue':
+        resp.message(handle_answer_queue)
+
+    if intent_name=='ask_price':
+        resp.message(handle_ask_price)
+
+    if intent_name=='answer_price':
+        resp.message(handle_answer_price)
+
+    if intent_name=='express_cold':
+        resp.message(handle_express_cold)
+
+    if intent_name=='express_hot':
+        resp.message(handle_express_hot)
+
+    if intent_name == 'name':
+        # Update Name
+        if entity_1_value:
+            update_name(user, entity_1_value)
+        else:
+            resp.message("Sorry I didin't get your name.")
 
     # Add a message
-    resp.message("Hi Minkyung.")
+    # resp.message("Hi Minkyung.")
 
     return str(resp)
 
