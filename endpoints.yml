@@ -1,2 +1,2 @@
 action_endpoint:
-  url: "https://06c30fcb.ngrok.io/message_in"
+  url: "http://1ca9024b.ngrok.io"

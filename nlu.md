@@ -5,6 +5,24 @@
 - good morning
 - good evening
 - hey there
+- heyyy
+
+## intent:name
+- hi i'm [Chloe](name)
+- i'm [Chloe](name)
+- i'm [Minkyung](name)
+- my name is [Ziwon](name)
+- my name is [Eunji](name)
+- my name is [Mimi](name)
+- [Mimi](name)
+- [Minkyung Kim](name)
+- [Ziwon Kim](name)
+- this is [Ziwon](name)
+- this is [Eunji](name)
+- i am [Eunji](name)
+- i am [Chloe](name)
+- i am [Zhang](name)
+- i am [Ziwon](name)
 
 ## intent:restaurant_search
 - i'm looking for a place to eat
@@ -25,6 +43,8 @@
 - thank you
 - thx
 - thanks very much
+- thanks
+- it's amazing thanks
 
 ## intent:express_hungry
 - i'm hungry
@@ -34,33 +54,51 @@
 - want to eat something
 - so hungry
 - i'm so hungry
-- i am so hungry
 - i feel hungry
+- i want to eat something
+- i am hungry af
+- can you find something to eat
+- i want to eat so bad
+- i am so hungry
+- why am i so hungry?
 
 ## intent:express_cold
-- i'm cold
-- i feel cold
+- I'm cold
+- I feel cold
 - why is it so cold here
 - can you lower the aircon
 - can you make it warmer
 - can you adjust the ac
+- I feel so cold
+- It's freezing here
 
 ## intent:express_hot
-- it's so hot
-- i feel hot
+- It's so hot
+- I feel hot
 - why is it so hot here
 - can you make it cooler
 - can you adjust the ac
+- why it is so hot here
+- can you turn on the aircon?
+- can you turn on the ac?
+- it's too hot here
+- it is too hot here
 
 ## intent:mood_affirm
 - yes
+- sure
+- yeah
+- why not
+- yesss
 - indeed
 - of course
 - that sounds good
 - correct
 - okay
-- it's fine
+- It's fine
 - that's okay
+- yeah I'm fine with that
+- sure of course
 
 ## intent:mood_deny
 - no
@@ -69,6 +107,7 @@
 - don't like that
 - no way
 - not really
+- no I don't want that
 
 ## intent:mood_great
 - perfect
@@ -91,36 +130,6 @@
 - not very good
 - extremly sad
 - so sad
-
-## intent:introduction
-- tell me about your personality
-- why are you here
-- talk about yourself
-- tell me some stuff about you
-- talk some stuff about yourself
-- I want to know you better
-- I want to know more about you
-- who are you
-- tell me about yourself
-- tell me about you
-- about yourself
-- describe yourself
-- introduce yourself
-- say about you
-- what are you
-- define yourself
-- what is your personality
-- all about you
-
-## intent:age
-- tell me your age
-- what's your age
-- your age
-- age of yours
-- how old are you
-- I'd like to know your age
-- are you 21 years old
-- how old is your platform
 
 ## intent:annoying
 - you are annoying me so much
@@ -254,15 +263,6 @@
 - you're looking good
 - you're pretty
 
-## intent:birthday
-- your birth date
-- when is your birthday
-- when do you celebrate your birthday
-- when do you have birthday
-- date of your birthday
-- when were you born
-- what's your birthday
-
 ## intent:boring
 - you are boring
 - you're so boring
@@ -271,15 +271,6 @@
 - you're incredibly boring
 - you are boring me
 - you are very boring
-
-## intent:boss
-- who is your boss
-- who do you think is your boss
-- I should be your boss
-- who is your master
-- who is your owner
-- who is the boss
-- who do you work for
 
 ## intent:busy
 - are you busy
@@ -388,59 +379,6 @@
 - why are you so smart
 - you are so clever
 
-## intent:crazy
-- you're nuts
-- you are crazy
-- you're out of your mind
-- you're so crazy
-- how crazy you are
-- you're so out of your mind
-- you went crazy
-- I think you're crazy
-- are you crazy
-- are you mad
-- are you insane
-- are you mad at me
-- are you mad or what
-- are you nuts
-- you are a weirdo
-- you are insane
-- you are mad
-
-## intent:fired
-- you are fired
-- I fire you
-- you don't work for me anymore
-- we're not working together anymore
-- now you're fired
-- I want to fire you
-- you must get fired
-- it's time to fire you
-- you should be fired
-- I will fire you
-- you are unemployed from now on
-- I will make you unemployed
-- I'm about to fire you
-- I'm firing you
-- you are dismissed
-
-## intent:funny
-- you make me laugh a lot
-- you are hilarious
-- you are really funny
-- you're the funniest bot I've talked to
-- you make me laugh
-- you're so funny
-- you're a very funny bot
-- you're really funny
-- how funny you are
-- you're incredibly funny
-- you are funny
-- you're the funniest
-- you are so funny
-- you are very funny
-- that was funny
-
 ## intent:good
 - you are very helpful
 - you are the best
@@ -488,28 +426,6 @@
 - let's tell everyone that you are awesome
 - you are really amazing
 
-## intent:agent_happy
-- are you happy
-- you are happy
-- you're very happy
-- you're really happy
-- you're so happy
-- how happy you are
-- you're extremely happy
-- you're full of happiness
-- are you happy now
-- are you happy today
-- are you happy with me
-
-## intent:hobby
-- what do you do for fun
-- what's your hobby
-- tell me about your hobby
-- do you have a hobby
-- what about your hobby
-- your hobby
-- what are your hobbies
-
 ## intent:hungry
 - do you want to eat
 - are you hungry
@@ -519,17 +435,6 @@
 - you're very hungry
 - you might be hungry
 - you're really hungry
-
-## intent:marry
-- let's get married
-- would you like to marry me
-- marry me
-- I love you marry me
-- marry me please
-- we should marry
-- I want to marry you
-- you are my wife
-- be my husband
 
 ## intent:friend
 - I want to have a friend like you
@@ -594,15 +499,6 @@
 - what's your homeland
 - your homeland is
 
-## intent:ready
-- are you ready
-- are you ready right now
-- are you ready today
-- are you ready now
-- are you ready tonight
-- were you ready
-- have you been ready
-
 ## intent:real
 - you are real
 - you are not fake
@@ -616,32 +512,6 @@
 - are you a real human
 - you are a real person
 - you are not real
-
-## intent:residence
-- where do you live
-- in which city do you live
-- your residence
-- your house
-- your home
-- your hometown
-- what is your hometown
-- is it your hometown
-- where is your hometown
-- tell me about your city
-- what is your city
-- what is your residence
-- what is your town
-- what's your city
-- what's your home
-- where is your home
-- where is your residence
-- where's your home
-- where's your hometown
-- where's your house
-- where you live
-- your city
-- your town
-
 
 ## intent:are_you_sure
 - are you sure
@@ -1060,7 +930,7 @@
 - evening
 - good evening there
 
-## intent:goodmorning
+## intent:goodevening
 - good morning
 - good morning to you
 - hello good morning
