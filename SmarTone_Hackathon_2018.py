@@ -21,6 +21,13 @@ message = client.messages.create(
                           )
 print(message.sid)
 
+message = client.messages.create(
+                              body='Hello there!',
+                              from_='whatsapp:+14155238886',
+                              to='whatsapp:+85262232647'
+                          )
+print(message.sid)
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -48,6 +55,34 @@ def message_in():
     user = request.values['From']
     message = request.values['Body']
     parsed_message = interpreter.parse(request.values['Body'])
+    print(parsed_message)
+
+    print(parsed_message)
+    for key in parsed_message.keys():
+        for value in parsed_message[key]:
+            print(key, value)
+
+    # [
+    # {'name': 'name', 'confidence': 0.16701710503937672},
+    # [
+    # {'start': 14, 'end': 19, 'value': 'ziwon', 'entity': 'name', 'confidence': 0.8729814156254414, 'extractor': 'ner_crf'}
+    # ],
+    #
+    # [
+    # {'name': 'name', 'confidence': 0.16701710503937672},
+    # {'name': 'whatsup', 'confidence': 0.055722469338217916},
+    # {'name': 'good', 'confidence': 0.042322297553788614},
+    # {'name': 'friend', 'confidence': 0.03993370454164255},
+    # {'name': 'my_birthday', 'confidence': 0.03717055728120658},
+    #  {'name': 'mood_affirm', 'confidence': 0.02951665021895573},
+    # {'name': 'like_agent', 'confidence': 0.022120846140765704},
+    # {'name': 'goodbye', 'confidence': 0.021940056754661222},
+    # {'name': 'user_joking', 'confidence': 0.021112855513242212},
+    #  {'name': 'bad', 'confidence': 0.02038291394855075}
+    # ],
+    #  'Hi my name is Ziwon'
+    # ]
+
     print(parsed_message.values())
     for key in parsed_message.keys():
         for value in parsed_message[key]:
