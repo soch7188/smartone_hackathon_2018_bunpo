@@ -7,9 +7,8 @@ from rasa_nlu.model import Interpreter
 from twilio.rest import Client
 from rasa_core.agent import Agent
 
-# agent = Agent.load('models/dialogue', interpreter='models/current/nlu')
-
-interpreter = Interpreter.load('./models/cur/current/nlu')
+interpreter = Interpreter.load("./models/current/nlu")
+# interpreter = Interpreter.load('./models/current/nlu')
 
 # Your Account Sid and Auth Token from twilio.com/console
 account_sid = 'AC976573d88542155f2f8f4b1b5c624da6'
@@ -24,7 +23,10 @@ message = client.messages.create(
 print(message.sid)
 
 app = Flask(__name__)
+
+
 # interpreter = Interpreter.load('./models/current/nlu')
+
 
 @app.route('/')
 def hello_world():
@@ -35,26 +37,15 @@ def hello_world():
 def message_in():
     """Respond to incoming messages with a friendly SMS."""
     # Start our response
-    print("message_in is called")
-
     resp = MessagingResponse()
     print("request.values.From: ", request.values['From'])
     print("request.values.To: ", request.values['To'])
     print("request.values.Body: ", request.values['Body'])
 
-    # result = interpreter.parse(request.values['Body'])
-    resp.message(request.values['Body'])
+    # Add a message
+    resp.message("Hi Minkyung.")
 
     return str(resp)
-
-    # answer = [""]
-    # # Add a message
-    # for r in responses:
-    # 	answer.append(r.get("text"))
-    # # print(answer)
-    # resp.message(" ".join(answer))
-
-    # return str(resp)
 
 
 # @app.route('/get_message', endpoint='get_message', methods=['GET'])
