@@ -42,5 +42,5 @@ templates:
   utter_answer_cold:
   - text: "Oh you feel cold, then I will adjust the aircon and make the temperature higher a bit"
 
-  utter_answer_cold:
+  utter_answer_hot:
   - text: "Oh you feel hot, then I will adjust the aircon and make the temperature lower a bit"

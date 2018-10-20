@@ -5,7 +5,10 @@ from rasa_nlu.model import Interpreter
 
 # Download the helper library from https://www.twilio.com/docs/python/install
 from twilio.rest import Client
+from rasa_core.agent import Agent
 
+agent = Agent.load('models/dialogue', interpreter='models/current/nlu')
+# interpreter = Interpreter.load('./models/current/nlu')
 
 # Your Account Sid and Auth Token from twilio.com/console
 account_sid = 'AC976573d88542155f2f8f4b1b5c624da6'
@@ -13,11 +16,10 @@ auth_token = '4cbda18e05bce73ab36e5cc280dbff1b'
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-                              body='Hello there!',
+                              body='Hey there!',
                               from_='whatsapp:+14155238886',
-                              to='whatsapp:+85261318805'
+                              to='whatsapp:+85262232647'
                           )
-
 print(message.sid)
 
 app = Flask(__name__)
@@ -29,18 +31,26 @@ def hello_world():
     return 'Hello World!'
 
 
-
 @app.route("/message_in", methods=['GET', 'POST'])
 def message_in():
     """Respond to incoming messages with a friendly SMS."""
     # Start our response
+    print("message_in is called")
+
     resp = MessagingResponse()
     print("request.values.From: ", request.values['From'])
     print("request.values.To: ", request.values['To'])
     print("request.values.Body: ", request.values['Body'])
 
+    # result = interpreter.parse(request.values['Body'])
+    responses = agent.handle_message(request.values['Body'])
+
+    answer = [""]
     # Add a message
-    resp.message("Hi Minkyung.")
+    for r in responses:
+    	answer.append(r.get("text"))
+    # print(answer)
+    resp.message(" ".join(answer))
 
     return str(resp)
 
@@ -54,3 +64,24 @@ def get_message():
 
 if __name__ == '__main__':
     app.run()
+
+
+# from rasa_core.channels.twilio import TwilioInput
+# from rasa_core.agent import Agent
+# from rasa_core.interpreter import RegexInterpreter
+# from rasa_nlu.model import Interpreter
+
+# # load your trained agent
+# agent = Agent.load('models/dialogue', interpreter='models/current/nlu')
+
+# input_channel = TwilioInput(
+#         # you get this from your twilio account
+#         account_sid="YOUR_ACCOUNT_SID",
+#         # also from your twilio account
+#         auth_token="YOUR_AUTH_TOKEN",
+#         # a number associated with your twilio account
+#         twilio_number="YOUR_TWILIO_NUMBER"
+# )
+
+# # set serve_forever=False if you want to keep the server running
+# s = agent.handle_channels([input_channel], 5004, serve_forever=False)
