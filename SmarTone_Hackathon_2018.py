@@ -2,10 +2,12 @@ import json
 from flask import Flask, request, jsonify
 from twilio.twiml.messaging_response import Body, Message, Redirect, MessagingResponse
 from rasa_nlu.model import Interpreter
+from scenarios.registration import *
 
 # Download the helper library from https://www.twilio.com/docs/python/install
 from twilio.rest import Client
 
+interpreter = Interpreter.load('/Users/ziwon/Documents/SmarTone_Hackathon_2018/models/current/nlu')
 
 # Your Account Sid and Auth Token from twilio.com/console
 account_sid = 'AC976573d88542155f2f8f4b1b5c624da6'
@@ -17,12 +19,16 @@ message = client.messages.create(
                               from_='whatsapp:+14155238886',
                               to='whatsapp:+85261318805'
                           )
+print(message.sid)
 
+message = client.messages.create(
+                              body='Hello there!',
+                              from_='whatsapp:+14155238886',
+                              to='whatsapp:+85262232647'
+                          )
 print(message.sid)
 
 app = Flask(__name__)
-# interpreter = Interpreter.load('./models/current/nlu')
-
 
 @app.route('/')
 def hello_world():
@@ -46,6 +52,44 @@ def message_in():
     print("request.values.To: ", request.values['To'])
     print("request.values.Body: ", request.values['Body'])
 
+    user = request.values['From']
+    message = request.values['Body']
+    parsed_message = interpreter.parse(request.values['Body'])
+    print(parsed_message)
+
+    print(parsed_message)
+    for key in parsed_message.keys():
+        for value in parsed_message[key]:
+            print(key, value)
+
+    # [
+    # {'name': 'name', 'confidence': 0.16701710503937672},
+    # [
+    # {'start': 14, 'end': 19, 'value': 'ziwon', 'entity': 'name', 'confidence': 0.8729814156254414, 'extractor': 'ner_crf'}
+    # ],
+    #
+    # [
+    # {'name': 'name', 'confidence': 0.16701710503937672},
+    # {'name': 'whatsup', 'confidence': 0.055722469338217916},
+    # {'name': 'good', 'confidence': 0.042322297553788614},
+    # {'name': 'friend', 'confidence': 0.03993370454164255},
+    # {'name': 'my_birthday', 'confidence': 0.03717055728120658},
+    #  {'name': 'mood_affirm', 'confidence': 0.02951665021895573},
+    # {'name': 'like_agent', 'confidence': 0.022120846140765704},
+    # {'name': 'goodbye', 'confidence': 0.021940056754661222},
+    # {'name': 'user_joking', 'confidence': 0.021112855513242212},
+    #  {'name': 'bad', 'confidence': 0.02038291394855075}
+    # ],
+    #  'Hi my name is Ziwon'
+    # ]
+
+    print(parsed_message.values())
+    for key in parsed_message.keys():
+        for value in parsed_message[key]:
+            print(key, value)
+
+    initial_text_check(message, parsed_message)
+
     # Add a message
     resp.message("Hi Minkyung.")
 
@@ -60,4 +104,4 @@ def get_message():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5001)

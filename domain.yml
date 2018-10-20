@@ -1,130 +1,39 @@
 intents:
   - greet
-  - restaurant_search
-  - thankyou
-  - express_hungry
-  - express_cold
-  - express_hot
+  - goodbye
   - mood_affirm
   - mood_deny
   - mood_great
-  - answer_question
-  - unhelpful
-  - smart
-  - busy
-  - help
-  - chatbot
-  - good
-  - hungry
-  - origin
-  - real
-  - are_you_sure
-  - bad
-  - good
-  - no_problem
-  - thanks
-  - welcome
-  - wait
-  - dont_care
-  - sorry
-  - what_you_mean
-  - wrong
-  - ha_ha
-  - wow
-  - goodbye
-  - goodevening
-  - goodnight
-  - how_are_you
-  - nice_to_meet
-  - nice_to_talk
-  - whatsup
-  - angry
-  - back
-  - bored
-  - busy
-  - wanna_talk
-  - doing_well
-  - happy
-  - user_here
-  - user_joking
-  - like_agent
-  - user_waiting
-  - see_again
-  - lets_talk
-  - be_back
-
-entities:
- - name
- - cuisine
- - location
-
-slots:
-  name:
-    type: text
+  - mood_unhappy
 
 actions:
   - utter_greet
   - utter_cheer_up
   - utter_did_that_help
-  - utter_need_help
   - utter_happy
   - utter_goodbye
-  - utter_answer_cold
-  - utter_answer_hot
-  - utter_what_eat
-  - utter_wait_okay
-  - utter_top_restaurants
-  - action_default_fallback
-  - utter_thankyou
-  - utter_just
-  - utter_last
-  - utter_ask_name
-  - utter_no_wait_restaurants
-  - action_name_hello
 
+entities:
+  - name:
+    - type: text
+  - cuisine:
+    - type: text
+  - location:
+    - type: text
 
 templates:
+  utter_greet:
+  - text: "Hey! How are you?"
 
-  utter_ask_name:
-  - text: "Hey there! What is your name?"
-
-  utter_just:
-  - text: "*📨 You can ask for help anytime by sending me a message! 📨*"
-
-  utter_last:
-  - text: "*📤 You can come back anytime for help by sending me a message! 📤*"
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
   - text: "Did that help you?"
-    buttons: ["Yeah!", "Not really🙁"]
 
-  utter_need_help:
-  - "Do you need any help?"
+  utter_happy:
+  - text: "Great carry on!"
 
   utter_goodbye:
-  - "Thank you for using our sevice 😉"
-  - "bye bye 😢"
-
-  utter_answer_cold:
-  - text: "Oh you feel cold, then I will adjust the aircon and make the temperature higher a bit\n**Temperature Now** : 25°C"
-
-  utter_answer_hot:
-  - text: "Oh you feel hot, then I will adjust the aircon and make the temperature lower a bit\n**Temperature Now** : 22°C"
-
-  utter_what_eat:
-  - text: "What do you want to eat?"
-
-  utter_wait_okay:
-  - text: "Is it okay for you to wait?"
-
-  utter_top_restaurants:
-  - text: "These are our top restaurants recommendation for you: "
-
-  utter_no_wait_restaurants:
-  - text: "These are the restaurants without waiting time: "
-
-  action_default_fallback:
-  - text: "Do you need help?"
-
-  utter_thankyou:
-  - text: "You're welcome, always gald to help! 😊 "
+  - text: "Bye"

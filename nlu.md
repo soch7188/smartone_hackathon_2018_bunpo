@@ -6,8 +6,6 @@
 - good evening
 - hey there
 - heyyy
-- hey there
-- hey 👋
 
 ## intent:name
 - hi i'm [Chloe](name)
@@ -25,10 +23,6 @@
 - i am [Chloe](name)
 - i am [Zhang](name)
 - i am [Ziwon](name)
-- hi my name is [Ziwon](name)
-- hi my name is [Minkyung](name)
-- hi my name is [Eunji](name)
-- hi my name is [Mimi](name)
 
 ## intent:restaurant_search
 - i'm looking for a place to eat
@@ -43,13 +37,6 @@
 - anywhere near [18328](location)
 - I am looking for [asian fusion](cuisine) food
 - I am looking a restaurant in [29432](location)
-- I want to eat [asian fusion](cuisine) food
-- I want to eat [chinese](cuisine) food
-- I want to eat [italian](cuisine) food
-- where can i find [italian](cuisine) restaurant
-- where can i find [korean](cuisine) restaurant
-- where can i find [chinese](cuisine) restaurant
-- where can i find [asian fusion](cuisine) restaurant
 
 ## intent:thankyou
 - thanks!
@@ -58,7 +45,6 @@
 - thanks very much
 - thanks
 - it's amazing thanks
-- think you so much
 
 ## intent:express_hungry
 - i'm hungry
@@ -76,6 +62,32 @@
 - i am so hungry
 - why am i so hungry?
 
+## intent:ask_user_points
+- how many points do I have?
+- my points status
+- how am I doing
+- how's my points
+- hows my points
+- hows my status
+
+## intent:ask_queue
+- how is the queue at [girl's washroom](location)
+- how many people are at the [washroom](location)
+
+## intent:answer_queue
+- queue is not that long [here](location)
+
+## intent:ask_price
+- where can I get the lowest price for [Samsung Galaxy Note 9](item)
+- what's the lowest price
+- which store got the cheapest?
+
+## intent:answer_item
+- I'm looking for [iPhone XS](item)
+- [iPhone XS Max](item)
+- [LG V40](item)
+- I want [Samsung Galaxy Phone](item)
+
 ## intent:express_cold
 - I'm cold
 - I feel cold
@@ -85,6 +97,10 @@
 - can you adjust the ac
 - I feel so cold
 - It's freezing here
+- can you turn off the air conditioning
+- can you turn off the a/c
+- can you turn off the ac
+- aircon off
 
 ## intent:express_hot
 - It's so hot
@@ -97,6 +113,7 @@
 - can you turn on the ac?
 - it's too hot here
 - it is too hot here
+- aircon on
 
 ## intent:mood_affirm
 - yes
@@ -901,9 +918,9 @@
 - woah
 
 ## intent:goodbye
-- okay see you later 👋
-- hope to see you later👋
-- bye for now 👋
+- okay see you later
+- hope to see you later
+- bye for now
 - till next time
 - I must go
 - bye
