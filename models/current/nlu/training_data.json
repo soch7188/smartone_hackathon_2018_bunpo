@@ -172,84 +172,120 @@
         "text": "can you lower the aircon"
       },
       {
-        "intent": "express_cold",
-        "text": "greet"
+        "intent": "mood_affirm",
+        "text": "yes"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_greet"
+        "intent": "mood_affirm",
+        "text": "indeed"
       },
       {
-        "intent": "express_cold",
-        "text": "mood_great"
+        "intent": "mood_affirm",
+        "text": "of course"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_happy"
+        "intent": "mood_affirm",
+        "text": "that sounds good"
       },
       {
-        "intent": "express_cold",
-        "text": "greet"
+        "intent": "mood_affirm",
+        "text": "correct"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_greet"
+        "intent": "mood_deny",
+        "text": "no"
       },
       {
-        "intent": "express_cold",
-        "text": "mood_unhappy"
+        "intent": "mood_deny",
+        "text": "never"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_cheer_up"
+        "intent": "mood_deny",
+        "text": "I don't think so"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_did_that_help"
+        "intent": "mood_deny",
+        "text": "don't like that"
       },
       {
-        "intent": "express_cold",
-        "text": "mood_affirm"
+        "intent": "mood_deny",
+        "text": "no way"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_happy"
+        "intent": "mood_deny",
+        "text": "not really"
       },
       {
-        "intent": "express_cold",
-        "text": "greet"
+        "intent": "mood_great",
+        "text": "perfect"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_greet"
+        "intent": "mood_great",
+        "text": "very good"
       },
       {
-        "intent": "express_cold",
-        "text": "mood_unhappy"
+        "intent": "mood_great",
+        "text": "great"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_cheer_up"
+        "intent": "mood_great",
+        "text": "amazing"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_did_that_help"
+        "intent": "mood_great",
+        "text": "wonderful"
       },
       {
-        "intent": "express_cold",
-        "text": "mood_deny"
+        "intent": "mood_great",
+        "text": "I am feeling very good"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_goodbye"
+        "intent": "mood_great",
+        "text": "I am great"
       },
       {
-        "intent": "express_cold",
-        "text": "goodbye"
+        "intent": "mood_great",
+        "text": "I'm good"
       },
       {
-        "intent": "express_cold",
-        "text": "utter_goodbye"
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremly sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
       }
     ],
     "regex_features": [],

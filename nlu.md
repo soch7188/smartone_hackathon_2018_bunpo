@@ -31,30 +31,39 @@
 - i feel cold
 - can you lower the aircon
 
-## happy path
-* greet
-  - utter_greet
-* mood_great
-  - utter_happy
+## intent:mood_affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* mood_affirm
-  - utter_happy
+## intent:mood_deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
-* mood_deny
-  - utter_goodbye
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
 
-## say goodbye
-* goodbye
-  - utter_goodbye
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremly sad
+- so sad
