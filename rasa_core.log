@@ -11,3 +11,447 @@ In most other cases you should consider using 'safe_load(stream)'
   data = yaml.load(stream)
 
 Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': '+14155238886', 'Body': 'Hey! How are you?'}
+POST Response: 400 {"code": 21212, "message": "The 'From' number +14155238886 is not a valid phone number, shortcode, or alphanumeric sender ID.", "more_info": "https://www.twilio.com/docs/errors/21212", "status": 400}
+Something went wrong "Unable to create record: The 'From' number +14155238886 is not a valid phone number, shortcode, or alphanumeric sender ID."
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Hey! How are you?'}
+POST Response: 201 {"sid": "SM48e2a378466a4e2790a419d1756d82f5", "date_created": "Sat, 20 Oct 2018 10:51:41 +0000", "date_updated": "Sat, 20 Oct 2018 10:51:41 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Hey! How are you?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM48e2a378466a4e2790a419d1756d82f5.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM48e2a378466a4e2790a419d1756d82f5/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Rasa process starting
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Bye'}
+POST Response: 201 {"sid": "SM83f01d7e0e834d45ba73ebdc20ca7f61", "date_created": "Sat, 20 Oct 2018 10:53:35 +0000", "date_updated": "Sat, 20 Oct 2018 10:53:35 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Bye", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM83f01d7e0e834d45ba73ebdc20ca7f61.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM83f01d7e0e834d45ba73ebdc20ca7f61/Media.json"}}
+Exception when trying to handle message.'NoneType' object has no attribute 'replace'
+'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_core/channels/twilio.py", line 103, in message
+    text = text.replace('¡', '@')
+AttributeError: 'NoneType' object has no attribute 'replace'
+Exception on /webhooks/twilio/webhook [POST]
+Traceback (most recent call last):
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_core/channels/twilio.py", line 103, in message
+    text = text.replace('¡', '@')
+AttributeError: 'NoneType' object has no attribute 'replace'
+Exception when trying to handle message.'NoneType' object has no attribute 'replace'
+'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_core/channels/twilio.py", line 103, in message
+    text = text.replace('¡', '@')
+AttributeError: 'NoneType' object has no attribute 'replace'
+Exception on /webhooks/twilio/webhook [POST]
+Traceback (most recent call last):
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_core/channels/twilio.py", line 103, in message
+    text = text.replace('¡', '@')
+AttributeError: 'NoneType' object has no attribute 'replace'
+Exception when trying to handle message.'NoneType' object has no attribute 'replace'
+'NoneType' object has no attribute 'replace'
+Traceback (most recent call last):
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_core/channels/twilio.py", line 103, in message
+    text = text.replace('¡', '@')
+AttributeError: 'NoneType' object has no attribute 'replace'
+Exception on /webhooks/twilio/webhook [POST]
+Traceback (most recent call last):
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_core/channels/twilio.py", line 103, in message
+    text = text.replace('¡', '@')
+AttributeError: 'NoneType' object has no attribute 'replace'
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Oh you feel cold, then I will adjust the aircon and make the temperature higher a bit'}
+POST Response: 201 {"sid": "SMd71b42e0769a42ad96eed26065eeebfa", "date_created": "Sat, 20 Oct 2018 10:57:04 +0000", "date_updated": "Sat, 20 Oct 2018 10:57:04 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Oh you feel cold, then I will adjust the aircon and make the temperature higher a bit", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMd71b42e0769a42ad96eed26065eeebfa.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMd71b42e0769a42ad96eed26065eeebfa/Media.json"}}
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Did that help you?'}
+POST Response: 201 {"sid": "SM82d644bcafbf4fac802e6b4c9b91d21e", "date_created": "Sat, 20 Oct 2018 10:57:04 +0000", "date_updated": "Sat, 20 Oct 2018 10:57:04 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Did that help you?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM82d644bcafbf4fac802e6b4c9b91d21e.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM82d644bcafbf4fac802e6b4c9b91d21e/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'What do you want to eat?'}
+POST Response: 201 {"sid": "SM8f689ae653ed4c3d9132fd20dbdc372f", "date_created": "Sat, 20 Oct 2018 10:57:25 +0000", "date_updated": "Sat, 20 Oct 2018 10:57:25 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "What do you want to eat?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM8f689ae653ed4c3d9132fd20dbdc372f.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM8f689ae653ed4c3d9132fd20dbdc372f/Media.json"}}
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Is it okay for you to wait?'}
+POST Response: 201 {"sid": "SM9a49bbffa6cb4ff4b6923d73198f1b61", "date_created": "Sat, 20 Oct 2018 10:57:25 +0000", "date_updated": "Sat, 20 Oct 2018 10:57:25 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Is it okay for you to wait?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM9a49bbffa6cb4ff4b6923d73198f1b61.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM9a49bbffa6cb4ff4b6923d73198f1b61/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Hey! How are you?'}
+POST Response: 201 {"sid": "SM8c3d09dad2e449c89ae3d03d1890e142", "date_created": "Sat, 20 Oct 2018 10:58:28 +0000", "date_updated": "Sat, 20 Oct 2018 10:58:28 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Hey! How are you?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM8c3d09dad2e449c89ae3d03d1890e142.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM8c3d09dad2e449c89ae3d03d1890e142/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Here is something to u up:'}
+POST Response: 201 {"sid": "SMf3d51c327b3144efa662a63f90ef03e9", "date_created": "Sat, 20 Oct 2018 10:58:37 +0000", "date_updated": "Sat, 20 Oct 2018 10:58:37 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Here is something to u up:", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMf3d51c327b3144efa662a63f90ef03e9.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMf3d51c327b3144efa662a63f90ef03e9/Media.json"}}
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Did that help you?'}
+POST Response: 201 {"sid": "SM9541fbd383534908bd07c0927c7cb183", "date_created": "Sat, 20 Oct 2018 10:58:38 +0000", "date_updated": "Sat, 20 Oct 2018 10:58:38 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Did that help you?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM9541fbd383534908bd07c0927c7cb183.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM9541fbd383534908bd07c0927c7cb183/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85261318805', 'From': 'whatsapp:+14155238886', 'Body': 'Hey! How are you?'}
+POST Response: 201 {"sid": "SMce7a69d286684b6e86ca7ca0c27cd44f", "date_created": "Sat, 20 Oct 2018 10:58:58 +0000", "date_updated": "Sat, 20 Oct 2018 10:58:58 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85261318805", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Hey! How are you?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMce7a69d286684b6e86ca7ca0c27cd44f.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMce7a69d286684b6e86ca7ca0c27cd44f/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85261318805', 'From': 'whatsapp:+14155238886', 'Body': 'Here is something to u up:'}
+POST Response: 201 {"sid": "SM5c348d498df041cd892ed3273a61ca7f", "date_created": "Sat, 20 Oct 2018 10:59:08 +0000", "date_updated": "Sat, 20 Oct 2018 10:59:08 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85261318805", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Here is something to u up:", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM5c348d498df041cd892ed3273a61ca7f.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM5c348d498df041cd892ed3273a61ca7f/Media.json"}}
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85261318805', 'From': 'whatsapp:+14155238886', 'Body': 'Did that help you?'}
+POST Response: 201 {"sid": "SMeffc2068a0474f919666a17572706b3b", "date_created": "Sat, 20 Oct 2018 10:59:10 +0000", "date_updated": "Sat, 20 Oct 2018 10:59:10 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85261318805", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Did that help you?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMeffc2068a0474f919666a17572706b3b.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMeffc2068a0474f919666a17572706b3b/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85261318805', 'From': 'whatsapp:+14155238886', 'Body': 'Bye 😢'}
+POST Response: 201 {"sid": "SMbbaf5547ca034011b1374f7c86d97238", "date_created": "Sat, 20 Oct 2018 10:59:22 +0000", "date_updated": "Sat, 20 Oct 2018 10:59:22 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85261318805", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Bye \ud83d\ude22", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMbbaf5547ca034011b1374f7c86d97238.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMbbaf5547ca034011b1374f7c86d97238/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Bye 😢'}
+POST Response: 201 {"sid": "SM2e9b6bdb0b2b4bfab3f9ad0d968039be", "date_created": "Sat, 20 Oct 2018 11:09:03 +0000", "date_updated": "Sat, 20 Oct 2018 11:09:03 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Bye \ud83d\ude22", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM2e9b6bdb0b2b4bfab3f9ad0d968039be.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM2e9b6bdb0b2b4bfab3f9ad0d968039be/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Bye 😢'}
+POST Response: 201 {"sid": "SM2f323beb25b048ae8e23ab4cd880670c", "date_created": "Sat, 20 Oct 2018 11:19:49 +0000", "date_updated": "Sat, 20 Oct 2018 11:19:49 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Bye \ud83d\ude22", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM2f323beb25b048ae8e23ab4cd880670c.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM2f323beb25b048ae8e23ab4cd880670c/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'What do you want to eat?'}
+POST Response: 201 {"sid": "SMbc793adf35364a5db7bbcbd28f0675e4", "date_created": "Sat, 20 Oct 2018 11:19:56 +0000", "date_updated": "Sat, 20 Oct 2018 11:19:56 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "What do you want to eat?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMbc793adf35364a5db7bbcbd28f0675e4.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMbc793adf35364a5db7bbcbd28f0675e4/Media.json"}}
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Is it okay for you to wait?'}
+POST Response: 201 {"sid": "SMb5109a82eb9841069e5f925e73a0729f", "date_created": "Sat, 20 Oct 2018 11:19:57 +0000", "date_updated": "Sat, 20 Oct 2018 11:19:57 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Is it okay for you to wait?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMb5109a82eb9841069e5f925e73a0729f.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMb5109a82eb9841069e5f925e73a0729f/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Here is our '}
+POST Response: 201 {"sid": "SM7247123d7ffb432799cfbf9b33e1988f", "date_created": "Sat, 20 Oct 2018 11:20:07 +0000", "date_updated": "Sat, 20 Oct 2018 11:20:07 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Here is our ", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM7247123d7ffb432799cfbf9b33e1988f.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM7247123d7ffb432799cfbf9b33e1988f/Media.json"}}
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/rasa_nlu/extractors/entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/current/nlu/entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Hey! How are you?'}
+POST Response: 201 {"sid": "SMe671f5ad54054c7e9ad03ba4d7bd9725", "date_created": "Sat, 20 Oct 2018 11:33:07 +0000", "date_updated": "Sat, 20 Oct 2018 11:33:07 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Hey! How are you?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMe671f5ad54054c7e9ad03ba4d7bd9725.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMe671f5ad54054c7e9ad03ba4d7bd9725/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Here is something to u up:'}
+POST Response: 201 {"sid": "SMd024526640d5469a8f509f61f910a3ad", "date_created": "Sat, 20 Oct 2018 11:39:31 +0000", "date_updated": "Sat, 20 Oct 2018 11:39:31 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Here is something to u up:", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMd024526640d5469a8f509f61f910a3ad.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMd024526640d5469a8f509f61f910a3ad/Media.json"}}
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Did that help you?'}
+POST Response: 201 {"sid": "SMb49676cd420f46ba958eae2fca0dca7c", "date_created": "Sat, 20 Oct 2018 11:39:31 +0000", "date_updated": "Sat, 20 Oct 2018 11:39:31 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Did that help you?", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMb49676cd420f46ba958eae2fca0dca7c.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SMb49676cd420f46ba958eae2fca0dca7c/Media.json"}}
+/Users/minkyungkim/venv_smartone/lib/python3.6/site-packages/sklearn/preprocessing/label.py:151: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+
+POST Request: https://api.twilio.com/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages.json
+PAYLOAD: {'To': 'whatsapp:+85262232647', 'From': 'whatsapp:+14155238886', 'Body': 'Bye 😢'}
+POST Response: 201 {"sid": "SM431d2d7455a142208e0cbf97c3ce2e6e", "date_created": "Sat, 20 Oct 2018 12:10:32 +0000", "date_updated": "Sat, 20 Oct 2018 12:10:32 +0000", "date_sent": null, "account_sid": "AC976573d88542155f2f8f4b1b5c624da6", "to": "whatsapp:+85262232647", "from": "whatsapp:+14155238886", "messaging_service_sid": null, "body": "Bye \ud83d\ude22", "status": "queued", "num_segments": "1", "num_media": "0", "direction": "outbound-api", "api_version": "2010-04-01", "price": null, "price_unit": null, "error_code": null, "error_message": null, "uri": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM431d2d7455a142208e0cbf97c3ce2e6e.json", "subresource_uris": {"media": "/2010-04-01/Accounts/AC976573d88542155f2f8f4b1b5c624da6/Messages/SM431d2d7455a142208e0cbf97c3ce2e6e/Media.json"}}

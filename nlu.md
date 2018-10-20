@@ -26,6 +26,17 @@
 - thx
 - thanks very much
 
+## intent:express_hungry
+- i'm hungry
+- what to eat
+- what should i eat
+- hungry
+- want to eat something
+- so hungry
+- i'm so hungry
+- i am so hungry
+- i feel hungry
+
 ## intent:express_cold
 - i'm cold
 - i feel cold
@@ -47,6 +58,9 @@
 - of course
 - that sounds good
 - correct
+- okay
+- it's fine
+- that's okay
 
 ## intent:mood_deny
 - no
