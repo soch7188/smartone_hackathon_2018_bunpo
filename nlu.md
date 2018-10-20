@@ -23,6 +23,9 @@
 - i am [Chloe](name)
 - i am [Zhang](name)
 - i am [Ziwon](name)
+- hi my name is [Ziwon](name)
+- hi my name is [Zhang](name)
+- hi my name is [Eunji](name)
 
 ## intent:restaurant_search
 - i'm looking for a place to eat
@@ -37,6 +40,11 @@
 - anywhere near [18328](location)
 - I am looking for [asian fusion](cuisine) food
 - I am looking a restaurant in [29432](location)
+- I want to eat [chinese](cuisine) food
+- I want to eat [korean](cuisine) food
+- I want to eat [asian fusion](cuisine) food
+- I want to eat [italian](cuisine) food
+
 
 ## intent:thankyou
 - thanks!
@@ -45,6 +53,9 @@
 - thanks very much
 - thanks
 - it's amazing thanks
+- thank you so much
+- thanks a lot
+- thank you very much
 
 ## intent:express_hungry
 - i'm hungry
@@ -61,6 +72,8 @@
 - i want to eat so bad
 - i am so hungry
 - why am i so hungry?
+- I am so hungry
+- I want to eat so bad
 
 ## intent:ask_user_points
 - how many points do I have?
@@ -69,24 +82,55 @@
 - how's my points
 - hows my points
 - hows my status
+- I want to know my points
+- How much did i gain for the points
+- I want to know how many points i got
 
 ## intent:ask_queue
 - how is the queue at [girl's washroom](location)
+- how is the queue at [washroom](location)
+- how is the queue at [toilet](location)
+- how many people are at the [girl's washroom](location)
 - how many people are at the [washroom](location)
+- how many people are at the [toilet](location)
+- is there a queue in the [toilet](location)
+- is the queue long in the [girl's washroom](location)
+- do i need to line up in the [girl's washroom](location)
+- how many people in the [girl's washroom](location)
+- how many people in the [toilet](location)
+- how many people in the [washroom](location)
 
 ## intent:answer_queue
 - queue is not that long [here](location)
+- there is no queue [here](location)
+- there is no one [here](location)
+- there is no one in the [toilet](location)
+- queue is not that long in the [washroom](location)
+- is the queue long in the [girl's washroom](location)
 
 ## intent:ask_price
 - where can I get the lowest price for [Samsung Galaxy Note 9](item)
-- what's the lowest price
-- which store got the cheapest?
+- what's the lowest price for [Samsung Galaxy Note 9](item)
+- which store got the cheapest [Samsung Galaxy Note 9](item)?
+- where can I get the lowest price for [Toner](item)
+- where can I get the lowest price for [Toner](item)
+- what's the lowest price for [)
+- which store got the cheapest [Samsung Galaxy Note 9](item)?
+- where can I get the lowest price for [Samsung Galaxy Note 9](item)
+- what's the lowest price for [Samsung Galaxy Note 9](item)
+- which store got the cheapest [Samsung Galaxy Note 9](item)?
+- where can I get the lowest price for [Samsung Galaxy Note 9](item)
+- what's the lowest price for [Samsung Galaxy Note 9](item)
+- which store got the cheapest [Samsung Galaxy Note 9](item)?
 
 ## intent:answer_item
+- I'm looking for [iPhone XS](item)
 - I'm looking for [iPhone XS](item)
 - [iPhone XS Max](item)
 - [LG V40](item)
 - I want [Samsung Galaxy Phone](item)
+- I want [LG V40](item)
+- [iPhone XS Max](item)
 
 ## intent:express_cold
 - I'm cold
@@ -101,6 +145,7 @@
 - can you turn off the a/c
 - can you turn off the ac
 - aircon off
+- so cold
 
 ## intent:express_hot
 - It's so hot
@@ -114,6 +159,8 @@
 - it's too hot here
 - it is too hot here
 - aircon on
+- so hot
+- decrease the temp ru-	
 
 ## intent:mood_affirm
 - yes
@@ -132,20 +179,21 @@
 - sure of course
 
 ## intent:mood_deny
-- no
+- no go g
 - never
 - I don't think so
 - don't like that
 - no way
 - not really
 - no I don't want that
+- nope
 
 ## intent:mood_great
 - perfect
-- very good
+- very good 
 - great
 - amazing
-- wonderful
+- wonderful g
 - I am feeling very good
 - I am great
 - I'm good
