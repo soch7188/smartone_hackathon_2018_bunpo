@@ -108,12 +108,9 @@ def message_in():
     	# resp.message("Sorry, we couldn't understand your queue value.")
 
     	if parsed_message['entities'] != None: 
-    		if parsed_message['entities'][0] == None: 
-	    		brand = parsed_message['entities'][0]['value']
-	    		# resp.message("Sorry, we couldn't understand your crowdedness value. Please try again.")
-	    		
     		if parsed_message['entities'][1] != None and parsed_message['entities'][0] != None:
-    			crowdedness = parsed_message['entities'][1]['value']; brand = parsed_message['entities'][0]['value']
+    			crowdedness = parsed_message['entities'][1]['value']
+    			brand = parsed_message['entities'][0]['value']
     			resp.message(handle_answer_queue(user, brand, crowdedness));
 		
 		# if parsed_message['entities'] == None: 
@@ -134,7 +131,7 @@ def message_in():
 		# 			resp.message(handle_answer_price(user, store, item, parsed_message['entities'][2]['value']))
 
 		# else :
-		# 	resp.message("Sorry we did not catch for which item you wanted to input the price of. Please try again.")
+			# resp.message("Sorry we did not catch for which item you wanted to input the price of. Please try again.")
 
 
     elif intent_name=='express_cold':

@@ -12,7 +12,7 @@ def handle_ask_queue(user, brand):
         crowdedness = res.text
 
         if str(crowdedness) == "null":
-            crowdedness = 0
+            crowdedness = 2
             return str("The crowdedness of " + str(brand) + " is " + str(crowdedness))
 
         return str("The crowdedness of " + str(brand) + " is " + str(crowdedness))

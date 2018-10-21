@@ -26,6 +26,6 @@ def handle_greeting(user):
 def handle_ask_user_points(user):
     res = requests.get(url='http://localhost:5000/api/v1/user/points?phone_number=' + str(user))
     points = json.loads(res.text)
-    if points == None:
+    if points == "None":
         return "You do not have any points right now."
     return str("You have " + str(points["points"]) + " points.")
