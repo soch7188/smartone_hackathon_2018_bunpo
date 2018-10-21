@@ -110,8 +110,10 @@
 - there is no one in the [toilet](location)
 - queue is not that long in the [washroom](location)
 - is the queue long in the [girl's washroom](location)
-- queue is long at [Genki Sushi]
-- queue is long at [girl's washroom]
+- queue is long at [Genki Sushi](location)
+- queue is long at [girl's washroom](location)
+- queue is long at [toilet](location)
+- queue is long at [genki sushi](location)
 
 ## intent:ask_price
 - where can I get the lowest price for [Samsung Galaxy Note 9](item)
@@ -119,7 +121,6 @@
 - which store got the cheapest [Samsung Galaxy Note 9](item)?
 - where can I get the lowest price for [Toner](item)
 - where can I get the lowest price for [Toner](item)
-- what's the lowest price for [)
 - which store got the cheapest [Samsung Galaxy Note 9](item)?
 - where can I get the lowest price for [Samsung Galaxy Note 9](item)
 - what's the lowest price for [Samsung Galaxy Note 9](item)

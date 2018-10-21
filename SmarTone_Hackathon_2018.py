@@ -105,17 +105,19 @@ def message_in():
 
 
     elif intent_name=='answer_queue':
-    	resp.message("Sorry, we couldn't understand your queue value.")
-    	
+    	# resp.message("Sorry, we couldn't understand your queue value.")
+
     	if parsed_message['entities'] != None: 
-    		brand = parsed_message['entities'][0]['value']
-    		resp.message("Sorry, we couldn't understand your crowdedness value. Please try again.")
-    		
-    		if parsed_message['entities'][1] != None:
-    			crowdedness = parsed_message['entities'][1]['value'];resp.message(handle_answer_queue(user, brand, crowdedness))
-    		
+    		if parsed_message['entities'][0] == None: 
+	    		brand = parsed_message['entities'][0]['value']
+	    		# resp.message("Sorry, we couldn't understand your crowdedness value. Please try again.")
+	    		
+    		if parsed_message['entities'][1] != None and parsed_message['entities'][0] != None:
+    			crowdedness = parsed_message['entities'][1]['value']; brand = parsed_message['entities'][0]['value']
+    			resp.message(handle_answer_queue(user, brand, crowdedness));
+		
 		# if parsed_message['entities'] == None: 
-		# 	resp.message("Sorry, we could not process your input. Please input as queue is long at Genki Sushi or girls washroom")
+			# resp.message("Sorry, we could not process your input. Please input as queue is long at Genki Sushi or girls washroom")
 
   #   elif intent_name=='ask_price':
   #   	if (parsed_message['entities']):

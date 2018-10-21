@@ -576,6 +576,18 @@
         "entities": [
           {
             "start": 20,
+            "end": 31,
+            "value": "Genki Sushi",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the queue at Genki Sushi"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 20,
             "end": 26,
             "value": "toilet",
             "entity": "location"
@@ -630,6 +642,18 @@
           }
         ],
         "text": "is there a queue in the toilet"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 20,
+            "end": 31,
+            "value": "Genki Sushi",
+            "entity": "location"
+          }
+        ],
+        "text": "is there a queue at Genki Sushi"
       },
       {
         "intent": "ask_queue",
@@ -695,13 +719,37 @@
         "intent": "answer_queue",
         "entities": [
           {
-            "start": 23,
-            "end": 27,
-            "value": "here",
+            "start": 9,
+            "end": 14,
+            "value": "short",
+            "entity": "crowdedness"
+          },
+          {
+            "start": 18,
+            "end": 29,
+            "value": "Genki Sushi",
             "entity": "location"
           }
         ],
-        "text": "queue is not that long here"
+        "text": "queue is short at Genki Sushi"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 9,
+            "end": 14,
+            "value": "short",
+            "entity": "crowdedness"
+          },
+          {
+            "start": 18,
+            "end": 33,
+            "value": "girl's washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "queue is short at girl's washroom"
       },
       {
         "intent": "answer_queue",
@@ -764,6 +812,54 @@
         "text": "is the queue long in the girl's washroom"
       },
       {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "Genki Sushi",
+            "entity": "location"
+          }
+        ],
+        "text": "queue is long at Genki Sushi"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 17,
+            "end": 32,
+            "value": "girl's washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "queue is long at girl's washroom"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "toilet",
+            "entity": "location"
+          }
+        ],
+        "text": "queue is long at toilet"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 17,
+            "end": 28,
+            "value": "genki sushi",
+            "entity": "location"
+          }
+        ],
+        "text": "queue is long at genki sushi"
+      },
+      {
         "intent": "ask_price",
         "entities": [
           {
@@ -822,10 +918,6 @@
           }
         ],
         "text": "where can I get the lowest price for Toner"
-      },
-      {
-        "intent": "ask_price",
-        "text": "what's the lowest price for [)"
       },
       {
         "intent": "ask_price",
@@ -994,6 +1086,54 @@
           }
         ],
         "text": "iPhone XS Max"
+      },
+      {
+        "intent": "answer_price",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "iPhone XS",
+            "entity": "item"
+          },
+          {
+            "start": 23,
+            "end": 31,
+            "value": "Fortress",
+            "entity": "brand"
+          },
+          {
+            "start": 35,
+            "end": 40,
+            "value": "$9000",
+            "entity": "price"
+          }
+        ],
+        "text": "Price for iPhone XS at Fortress is $9000"
+      },
+      {
+        "intent": "answer_price",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "Apple Store",
+            "entity": "brand"
+          },
+          {
+            "start": 18,
+            "end": 26,
+            "value": "iPhone X",
+            "entity": "item"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "$8000",
+            "entity": "price"
+          }
+        ],
+        "text": "Apple Store sells iPhone X at $8000"
       },
       {
         "intent": "express_cold",
