@@ -89,11 +89,13 @@
 ## intent:ask_queue
 - how is the queue at [girl's washroom](location)
 - how is the queue at [washroom](location)
+- how is the queue at [Genki Sushi](location)
 - how is the queue at [toilet](location)
 - how many people are at the [girl's washroom](location)
 - how many people are at the [washroom](location)
 - how many people are at the [toilet](location)
 - is there a queue in the [toilet](location)
+- is there a queue at [Genki Sushi](location)
 - is the queue long in the [girl's washroom](location)
 - do i need to line up in the [girl's washroom](location)
 - how many people in the [girl's washroom](location)
@@ -101,12 +103,15 @@
 - how many people in the [washroom](location)
 
 ## intent:answer_queue
-- queue is not that long [here](location)
+- queue is [short](crowdedness) at [Genki Sushi](location)
+- queue is [short](crowdedness) at [girl's washroom](location)
 - there is no queue [here](location)
 - there is no one [here](location)
 - there is no one in the [toilet](location)
 - queue is not that long in the [washroom](location)
 - is the queue long in the [girl's washroom](location)
+- queue is long at [Genki Sushi]
+- queue is long at [girl's washroom]
 
 ## intent:ask_price
 - where can I get the lowest price for [Samsung Galaxy Note 9](item)
@@ -131,6 +136,10 @@
 - I want [Samsung Galaxy Phone](item)
 - I want [LG V40](item)
 - [iPhone XS Max](item)
+
+## intent:answer_price
+- Price for [iPhone XS](item) at [Fortress](brand) is [$9000](price)
+- [Apple Store](brand) sells [iPhone X](item) at [$8000](price)
 
 ## intent:express_cold
 - I'm cold

@@ -2284,3 +2284,5 @@ In most other cases you should consider using 'safe_load(stream)'
   data = yaml.load(stream)
 
 Rasa Core server is up and running on http://localhost:5002
+Rasa process starting
+Rasa process starting

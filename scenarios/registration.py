@@ -1,26 +1,32 @@
 import requests
-
+import json
 
 def register_if_not_already(user):
-    requests.post("http://localhost:5000/api/v1/user/register", json=[{"phone_number": user}])
+    print("register_if_not_already is called")
+    print("register user: ", user)
+    requests.post(url="http://localhost:5000/api/v1/user/register", json={'phone_number': user})
+    return "ok"
 
 
 def update_name(user, entity_1_value):
-    requests.post("http://localhost:5000/api/v1/user/update_name", json=[{"phone_number": user, "name": entity_1_value}])
+    requests.post(url="http://localhost:5000/api/v1/user/update_name", json={'phone_number':user, 'name': entity_1_value})
+    return str("Hey " + entity_1_value + " how can I help you?")
 
 
 def handle_greeting(user):
-    user = requests.get(url='http://localhost:5000/api/v1/user/get_user?phone_number=' + user)
-    print("user['name']: ")
-    print(user['name'])
-    if user['name']:
-        return "Hey!"
-    else:
-        return "Nice to meet you too! What's your name?"
+    user = requests.get(url='http://localhost:5000/api/v1/user/get_user?phone_number=' + str(user))
+    # return str(user)
+    user = json.loads(user.text)
+    if user["user"] == None:
+        return "Hey, What is your name?"
 
+    if user["user"]["name"]:
+        return str("Hey " + user["user"]["name"] + ", how can I help you?")
 
 def handle_ask_user_points(user):
-    res = requests.get(url='http://localhost:5000/api/v1/user/points?phone_number=' + user)
-    points = res['points']
-    print(points)
-    return "You have " + points + "."
+    res = requests.get(url='http://localhost:5000/api/v1/user/points?phone_number=' + str(user))
+    points = json.loads(res.text)
+    points = points["points"]
+    if points == None:
+        return "You do not have any points right now."
+    return str("You have " + points + " points.")

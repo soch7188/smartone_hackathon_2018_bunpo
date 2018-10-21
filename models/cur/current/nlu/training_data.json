@@ -210,6 +210,42 @@
         "text": "i am Ziwon"
       },
       {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Ziwon",
+            "entity": "name"
+          }
+        ],
+        "text": "hi my name is Ziwon"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Zhang",
+            "entity": "name"
+          }
+        ],
+        "text": "hi my name is Zhang"
+      },
+      {
+        "intent": "name",
+        "entities": [
+          {
+            "start": 14,
+            "end": 19,
+            "value": "Eunji",
+            "entity": "name"
+          }
+        ],
+        "text": "hi my name is Eunji"
+      },
+      {
         "intent": "restaurant_search",
         "text": "i'm looking for a place to eat"
       },
@@ -328,6 +364,54 @@
         "text": "I am looking a restaurant in 29432"
       },
       {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "chinese",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I want to eat chinese food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "korean",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I want to eat korean food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "asian fusion",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I want to eat asian fusion food"
+      },
+      {
+        "intent": "restaurant_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "italian",
+            "entity": "cuisine"
+          }
+        ],
+        "text": "I want to eat italian food"
+      },
+      {
         "intent": "thankyou",
         "text": "thanks!"
       },
@@ -350,6 +434,18 @@
       {
         "intent": "thankyou",
         "text": "it's amazing thanks"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you so much"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thanks a lot"
+      },
+      {
+        "intent": "thankyou",
+        "text": "thank you very much"
       },
       {
         "intent": "express_hungry",
@@ -408,6 +504,498 @@
         "text": "why am i so hungry?"
       },
       {
+        "intent": "express_hungry",
+        "text": "I am so hungry"
+      },
+      {
+        "intent": "express_hungry",
+        "text": "I want to eat so bad"
+      },
+      {
+        "intent": "ask_user_points",
+        "text": "how many points do I have?"
+      },
+      {
+        "intent": "ask_user_points",
+        "text": "my points status"
+      },
+      {
+        "intent": "ask_user_points",
+        "text": "how am I doing"
+      },
+      {
+        "intent": "ask_user_points",
+        "text": "how's my points"
+      },
+      {
+        "intent": "ask_user_points",
+        "text": "hows my points"
+      },
+      {
+        "intent": "ask_user_points",
+        "text": "hows my status"
+      },
+      {
+        "intent": "ask_user_points",
+        "text": "I want to know my points"
+      },
+      {
+        "intent": "ask_user_points",
+        "text": "How much did i gain for the points"
+      },
+      {
+        "intent": "ask_user_points",
+        "text": "I want to know how many points i got"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "girl's washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the queue at girl's washroom"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 20,
+            "end": 28,
+            "value": "washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the queue at washroom"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "toilet",
+            "entity": "location"
+          }
+        ],
+        "text": "how is the queue at toilet"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 27,
+            "end": 42,
+            "value": "girl's washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "how many people are at the girl's washroom"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 27,
+            "end": 35,
+            "value": "washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "how many people are at the washroom"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 27,
+            "end": 33,
+            "value": "toilet",
+            "entity": "location"
+          }
+        ],
+        "text": "how many people are at the toilet"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "toilet",
+            "entity": "location"
+          }
+        ],
+        "text": "is there a queue in the toilet"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 25,
+            "end": 40,
+            "value": "girl's washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "is the queue long in the girl's washroom"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 28,
+            "end": 43,
+            "value": "girl's washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "do i need to line up in the girl's washroom"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 23,
+            "end": 38,
+            "value": "girl's washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "how many people in the girl's washroom"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "toilet",
+            "entity": "location"
+          }
+        ],
+        "text": "how many people in the toilet"
+      },
+      {
+        "intent": "ask_queue",
+        "entities": [
+          {
+            "start": 23,
+            "end": 31,
+            "value": "washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "how many people in the washroom"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "here",
+            "entity": "location"
+          }
+        ],
+        "text": "queue is not that long here"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 18,
+            "end": 22,
+            "value": "here",
+            "entity": "location"
+          }
+        ],
+        "text": "there is no queue here"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "here",
+            "entity": "location"
+          }
+        ],
+        "text": "there is no one here"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "toilet",
+            "entity": "location"
+          }
+        ],
+        "text": "there is no one in the toilet"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 30,
+            "end": 38,
+            "value": "washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "queue is not that long in the washroom"
+      },
+      {
+        "intent": "answer_queue",
+        "entities": [
+          {
+            "start": 25,
+            "end": 40,
+            "value": "girl's washroom",
+            "entity": "location"
+          }
+        ],
+        "text": "is the queue long in the girl's washroom"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 37,
+            "end": 58,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "where can I get the lowest price for Samsung Galaxy Note 9"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 28,
+            "end": 49,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "what's the lowest price for Samsung Galaxy Note 9"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 29,
+            "end": 50,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "which store got the cheapest Samsung Galaxy Note 9?"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "Toner",
+            "entity": "item"
+          }
+        ],
+        "text": "where can I get the lowest price for Toner"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "Toner",
+            "entity": "item"
+          }
+        ],
+        "text": "where can I get the lowest price for Toner"
+      },
+      {
+        "intent": "ask_price",
+        "text": "what's the lowest price for [)"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 29,
+            "end": 50,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "which store got the cheapest Samsung Galaxy Note 9?"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 37,
+            "end": 58,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "where can I get the lowest price for Samsung Galaxy Note 9"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 28,
+            "end": 49,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "what's the lowest price for Samsung Galaxy Note 9"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 29,
+            "end": 50,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "which store got the cheapest Samsung Galaxy Note 9?"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 37,
+            "end": 58,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "where can I get the lowest price for Samsung Galaxy Note 9"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 28,
+            "end": 49,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "what's the lowest price for Samsung Galaxy Note 9"
+      },
+      {
+        "intent": "ask_price",
+        "entities": [
+          {
+            "start": 29,
+            "end": 50,
+            "value": "Samsung Galaxy Note 9",
+            "entity": "item"
+          }
+        ],
+        "text": "which store got the cheapest Samsung Galaxy Note 9?"
+      },
+      {
+        "intent": "answer_item",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "iPhone XS",
+            "entity": "item"
+          }
+        ],
+        "text": "I'm looking for iPhone XS"
+      },
+      {
+        "intent": "answer_item",
+        "entities": [
+          {
+            "start": 16,
+            "end": 25,
+            "value": "iPhone XS",
+            "entity": "item"
+          }
+        ],
+        "text": "I'm looking for iPhone XS"
+      },
+      {
+        "intent": "answer_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "iPhone XS Max",
+            "entity": "item"
+          }
+        ],
+        "text": "iPhone XS Max"
+      },
+      {
+        "intent": "answer_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "LG V40",
+            "entity": "item"
+          }
+        ],
+        "text": "LG V40"
+      },
+      {
+        "intent": "answer_item",
+        "entities": [
+          {
+            "start": 7,
+            "end": 27,
+            "value": "Samsung Galaxy Phone",
+            "entity": "item"
+          }
+        ],
+        "text": "I want Samsung Galaxy Phone"
+      },
+      {
+        "intent": "answer_item",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "LG V40",
+            "entity": "item"
+          }
+        ],
+        "text": "I want LG V40"
+      },
+      {
+        "intent": "answer_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "iPhone XS Max",
+            "entity": "item"
+          }
+        ],
+        "text": "iPhone XS Max"
+      },
+      {
         "intent": "express_cold",
         "text": "I'm cold"
       },
@@ -438,6 +1026,26 @@
       {
         "intent": "express_cold",
         "text": "It's freezing here"
+      },
+      {
+        "intent": "express_cold",
+        "text": "can you turn off the air conditioning"
+      },
+      {
+        "intent": "express_cold",
+        "text": "can you turn off the a/c"
+      },
+      {
+        "intent": "express_cold",
+        "text": "can you turn off the ac"
+      },
+      {
+        "intent": "express_cold",
+        "text": "aircon off"
+      },
+      {
+        "intent": "express_cold",
+        "text": "so cold"
       },
       {
         "intent": "express_hot",
@@ -478,6 +1086,18 @@
       {
         "intent": "express_hot",
         "text": "it is too hot here"
+      },
+      {
+        "intent": "express_hot",
+        "text": "aircon on"
+      },
+      {
+        "intent": "express_hot",
+        "text": "so hot"
+      },
+      {
+        "intent": "express_hot",
+        "text": "decrease the temp ru-"
       },
       {
         "intent": "mood_affirm",
@@ -537,7 +1157,7 @@
       },
       {
         "intent": "mood_deny",
-        "text": "no"
+        "text": "no go g"
       },
       {
         "intent": "mood_deny",
@@ -562,6 +1182,10 @@
       {
         "intent": "mood_deny",
         "text": "no I don't want that"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "nope"
       },
       {
         "intent": "mood_great",

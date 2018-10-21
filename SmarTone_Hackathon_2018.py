@@ -10,19 +10,20 @@ from scenarios.item import *
 # Download the helper library from https://www.twilio.com/docs/python/install
 from twilio.rest import Client
 
-interpreter = Interpreter.load('/Users/ziwon/Documents/SmarTone_Hackathon_2018/models/current/nlu')
+interpreter = Interpreter.load('./models/cur/current/nlu')
 
 # Your Account Sid and Auth Token from twilio.com/console
 account_sid = 'AC976573d88542155f2f8f4b1b5c624da6'
 auth_token = '4cbda18e05bce73ab36e5cc280dbff1b'
 client = Client(account_sid, auth_token)
 
-message = client.messages.create(
-                              body='Hello there!',
-                              from_='whatsapp:+14155238886',
-                              to='whatsapp:+85261318805'
-                          )
-print(message.sid)
+print("The RASA NLU model is ready")
+# message = client.messages.create(
+#                               body='Hello there!',
+#                               from_='whatsapp:+14155238886',
+#                               to='whatsapp:+85262232647'
+#                           )
+# print(message.sid)
 
 # message = client.messages.create(
 #                               body='Hello there!',
@@ -60,27 +61,29 @@ def message_in():
     user = request.values['From']
     message = request.values['Body']
     parsed_message = interpreter.parse(request.values['Body'])
-    print(parsed_message)
 
     intent_name = parsed_message['intent']['name']
     intent_conf = parsed_message['intent']['confidence']
 
-    if (parsed_message['entities']):
-        entity_1_name = parsed_message['entities'][0]['entity']
-        entity_1_value = parsed_message['entities'][0]['value']
+    # if (parsed_message['entities']):
+    #     entity_1_name = parsed_message['entities'][0]['entity']
+    #     entity_1_value = parsed_message['entities'][0]['value']
 
-        if (parsed_message['entities'][1]):
-            entity_2_name = parsed_message['entities'][1]['entity']
-            entity_2_value = parsed_message['entities'][1]['value']
+    #     if (parsed_message['entities'][1]):
+    #         entity_2_name = parsed_message['entities'][1]['entity']
+    #         entity_2_value = parsed_message['entities'][1]['value']
 
-            if (parsed_message['entities'][2]):
-                entity_3_name = parsed_message['entities'][2]['entity']
-                entity_3_value = parsed_message['entities'][2]['value']
+    #         if (parsed_message['entities'][2]):
+    #             entity_3_name = parsed_message['entities'][2]['entity']
+    #             entity_3_value = parsed_message['entities'][2]['value']
 
 
     # Step 2: Hanlde Scenarios
-    resp.message("Sorry, I cannot understand what you are saying yet, but I will learn soon!")
+    
 
+    # print("before user", user)
+    user = str(user.split(":")[1])[1:]
+    # print("after user", user)
     # 1) Registration
     register_if_not_already(user)
     # initial_text_check(user, intent_name, entity_1_name, entity_1_value, entity_2_name, entity_2_value)
@@ -89,37 +92,66 @@ def message_in():
     if intent_name=='greet':
         resp.message(handle_greeting(user))
 
-    if intent_name=='ask_user_points':
+
+    elif intent_name=='ask_user_points':
         resp.message(handle_ask_user_points(user))
 
     # 3)
-    if intent_name=='ask_queue':
-        resp.message(handle_ask_queue(user, entity_1_value, entity_2_value))
+    elif intent_name=='ask_queue':
+    	if (parsed_message['entities']):
+        	resp.message(handle_ask_queue(user, parsed_message['entities'][0]['value']))
+    	else:
+    		resp.message("Hi, we acknowledged that you want to know about queue status, but we do not recognize your place of interest. Please ask for either 'girls washroom' or  Genki sushi")
 
-    if intent_name == 'answer_queue':
-        resp.message(handle_answer_queue(user, entity_1_value, entity_2_value, entity_3_value))
 
-    if intent_name=='ask_price':
-        resp.message(handle_ask_price(user, entity_1_value))
+    elif intent_name=='answer_queue':
+    	resp.message("Sorry, we couldn't understand your queue value.")
+    	
+    	if parsed_message['entities'] != None: 
+    		brand = parsed_message['entities'][0]['value']
+    		resp.message("Sorry, we couldn't understand your crowdedness value. Please try again.")
+    		
+    		if parsed_message['entities'][1] != None:
+    			crowdedness = parsed_message['entities'][1]['value'];resp.message(handle_answer_queue(user, brand, crowdedness))
+    		
+		# if parsed_message['entities'] == None: 
+		# 	resp.message("Sorry, we could not process your input. Please input as queue is long at Genki Sushi or girls washroom")
 
-    if intent_name=='answer_price':
-        resp.message(handle_answer_price(user, entity_1_value))
+  #   elif intent_name=='ask_price':
+  #   	if (parsed_message['entities']):
+  #       	resp.message(handle_ask_price(user, parsed_message['entities'][0]['value']))
+  #   	else:
+  #   		resp.message("Sorry we did not catch for which item you want to see the price of. Please try again.")
 
-    if intent_name=='express_cold':
+  #   elif intent_name=='answer_price':
+  #   	if (parsed_message['entities']):
+  #   		store = parsed_message['entities'][0]['value']
+  #   		if (parsed_message['entities'][1]):
+  #   			item = parsed_message['entities'][1]['value']
+  #   			if (parsed_message['entities'][2]):
+		# 			resp.message(handle_answer_price(user, store, item, parsed_message['entities'][2]['value']))
+
+		# else :
+		# 	resp.message("Sorry we did not catch for which item you wanted to input the price of. Please try again.")
+
+
+    elif intent_name=='express_cold':
         resp.message(handle_express_cold(user))
 
-    if intent_name=='express_hot':
+
+    elif intent_name=='express_hot':
         resp.message(handle_express_hot(user))
 
-    if intent_name == 'name':
+
+    elif intent_name == 'name':
         # Update Name
-        if entity_1_value:
-            update_name(user, entity_1_value)
+        if parsed_message != None or parsed_message['entities'] != None or parsed_message['entities'][0] != None or parsed_message['entities'][0]['value'] != None:
+            resp.message(update_name(user, parsed_message['entities'][0]['value']))
         else:
             resp.message("Sorry I didin't get your name.")
 
-    # Add a message
-    # resp.message("Hi Minkyung.")
+    else:
+    	resp.message("Sorry, I cannot understand what you are saying yet, but I will learn soon!")
 
     return str(resp)
 
